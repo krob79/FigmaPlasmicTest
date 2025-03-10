@@ -13,9 +13,11 @@ import {
   PlasmicImg as PlasmicImg__,
   classNames,
   createPlasmicElementProxy,
-  deriveRenderOpts
+  deriveRenderOpts,
+  ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import { useDataEnv } from "@plasmicapp/react-web/lib/host";
+import { useScreenVariants as useScreenVariantskpUm6JyzC4Dm } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: kpUm6JyzC4dm/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic.module.css"; // plasmic-import: ujkSLKQVrwCX54GC7kShtg/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: OImqvU5W7f1u/css
@@ -48,6 +50,9 @@ function PlasmicHomepage__RenderFunc(props) {
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantskpUm6JyzC4Dm()
+  });
   return (
     <React.Fragment>
       <div className={projectcss.plasmic_page_wrapper}>
