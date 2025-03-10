@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "inlined",
@@ -24,7 +24,7 @@
     {
       "projectId": "ujkSLKQVrwCX54GC7kShtg",
       "projectApiToken": "tdban9dcGGnjFJV1mk6BXdMkyQyJ26Uem4YlIXP5HYTXzz2IJtXiUk0VKKxWmAmsHFxwtvF5zplwLfGig",
-      "projectName": "Website starter",
+      "projectName": "KRTest",
       "version": "latest",
       "cssFilePath": "plasmic/website_starter/plasmic.module.css",
       "components": [
