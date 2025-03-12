@@ -1,0 +1,13 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 434 234">
+  <g clip-path="url(#XylvpsA_mcT_a)" stroke="#60A630">
+    <circle opacity=".1" cx="216.439" cy="-139.215" r="360.159"/>
+    <circle opacity=".2" cx="216.439" cy="-139.215" r="310.477"/>
+    <circle opacity=".4" cx="255.774" cy="255.774" r="254.974" transform="matrix(-1 0 0 1 472.213 -394.989)" stroke-width="1.6"/>
+    <path opacity=".6" d="M67.471-138.756c0 82.524 67.105 149.428 149.888 149.428 82.784 0 149.888-66.904 149.888-149.428s-67.104-149.428-149.888-149.428c-82.783 0-149.888 66.904-149.888 149.428z" stroke-width="2"/>
+  </g>
+  <defs>
+    <clipPath id="XylvpsA_mcT_a">
+      <path fill="#fff" d="M0 0h434v234H0z"/>
+    </clipPath>
+  </defs>
+</svg>
